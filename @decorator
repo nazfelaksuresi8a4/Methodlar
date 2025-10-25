@@ -1,0 +1,16 @@
+#wrapper        *
+#@decorator     *
+
+def decorator(n):
+    def wrapper():
+        print('Fonksiyon çalıştı.')
+        n()
+        print('Fonksiyon durdu')
+
+    return wrapper
+
+@decorator
+def func():
+    print('Merhaba!')
+
+func()
