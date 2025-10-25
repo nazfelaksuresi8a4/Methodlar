@@ -1,0 +1,13 @@
+class ObjectClass:
+    x = 10
+    y = 20 
+
+    @classmethod
+    def square(cls):
+        return round((cls.x ** cls.y) / (cls.x * cls.y)),((cls.x ** cls.y) / (cls.x * cls.y))
+
+clss = ObjectClass()
+fnc = clss.square()
+
+print(fnc)
+    
