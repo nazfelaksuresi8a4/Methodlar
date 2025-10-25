@@ -1,0 +1,5 @@
+classmethod → Sınıfın kendisini (class’ı) ilk parametre olarak alır, sınıfın durumunu (örneğin tüm örnekleri etkileyen ayarlar) değiştirmek için kullanılır.
+
+staticmethod → Ne sınıfı ne de örneği (self) alır, sadece fonksiyonel bir işlem yapar; sınıfla ilişkili ama bağımsız mantık için kullanılır.
+
+decorator → Başka bir fonksiyonun davranışını kodunu değiştirmeden genişletmek veya sarmalamak için kullanılır.
